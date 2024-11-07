@@ -1,11 +1,11 @@
 
 import "@radix-ui/themes/styles.css";
-import {Text, Blockquote} from "@radix-ui/themes";
+import {Text, Blockquote, Theme} from "@radix-ui/themes";
 import { CopyBlock, dracula } from 'react-code-blocks';
 
 # Application Settings
 
-<div>
+<Theme>
     <br/>
     <Text>
         The second step is setting up a file called{' '}
@@ -14,7 +14,6 @@ import { CopyBlock, dracula } from 'react-code-blocks';
         component library) into Resonance, so PM's can launch
         campaigns with these components self-serve.
     </Text>
-    <br />
     <br />
     <Blockquote>
         Create a file called{' '}
@@ -107,4 +106,4 @@ import { CopyBlock, dracula } from 'react-code-blocks';
         theme={dracula}
     />
     <br />
-</div>
+</Theme>
