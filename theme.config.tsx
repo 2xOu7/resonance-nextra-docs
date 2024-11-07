@@ -6,9 +6,6 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/2xOu7/resonance-nextra-docs',
   },
-  editLink: {
-    component: null,
-  },
   docsRepositoryBase: 'https://github.com/2xOu7/resonance-nextra-docs',
   footer: {
     text: 'Resonance Docs',
