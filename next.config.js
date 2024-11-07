@@ -3,4 +3,4 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 });
 
-module.exports = {... withNextra(), output: 'standalone'}
+module.exports = {...withNextra(), output: 'standalone'}
