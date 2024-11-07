@@ -6,13 +6,12 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/2xOu7/resonance-nextra-docs',
   },
-  chat: {
-
-    link: 'https://discord.com',
+  editLink: {
+    component: null,
   },
   docsRepositoryBase: 'https://github.com/2xOu7/resonance-nextra-docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Resonance Docs',
   },
   feedback: {
     content: null
