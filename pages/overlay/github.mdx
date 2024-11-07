@@ -1,6 +1,6 @@
 import "@radix-ui/themes/styles.css";
-import {Text, Blockquote} from "@radix-ui/themes"
-import { CopyBlock, dracula } from 'react-code-blocks'
+import {Text} from "@radix-ui/themes";
+import { CopyBlock, dracula } from 'react-code-blocks';
 
 # GitHub Sync
 
@@ -77,7 +77,7 @@ import { CopyBlock, dracula } from 'react-code-blocks'
               '      - name: "Call API"\n' +
               '        uses: indiesdev/curl@v1.1\n' +
               '        with:\n' +
-              '          url: https://app.{your_domain}.useresonance.com/api/github/configsettings\n' +
+              '          url: https://{your_domain}.useresonance.com/api/github/configsettings\n' +
               '          method: "POST"\n' +
               '          accept: 200\n' +
               '          body: ${{steps.json_properties.outputs.config}}\n' +
